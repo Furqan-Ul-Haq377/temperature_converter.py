@@ -10,6 +10,8 @@ celsius = float(input("Temperature in Celsius: "))
 
 # Convert to Fahrenheit
 fahrenheit = celsius * 9 / 5 + 32
-
+# Convert to Kelvin
+kelvin = celsius + 273.15
 # Show the result
 print("Fahrenheit:", fahrenheit)
+print("Kelvin: ",kelvin)
